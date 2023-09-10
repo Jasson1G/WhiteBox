@@ -1,0 +1,18 @@
+page-login {
+
+    /* Estilo para el botón de "Registrarse" */
+    .register-button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background: none; /* Elimina el fondo del botón */
+    }
+    
+    .custom-card {
+      max-width: 200px; /* Ancho máximo de la tarjeta */
+      margin: auto; /* Centrar la tarjeta horizontalmente */
+      margin-top: 50px; /* Margen en la parte superior de la tarjeta */
+      margin-bottom: 50px; /* Margen en la parte inferior de la tarjeta */
+      padding: 40px; /* Espacio interno dentro de la tarjeta */
+    }
+}

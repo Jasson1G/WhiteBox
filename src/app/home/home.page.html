@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Escanea el QR</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Tu lista de códigos de barras existente aquí -->
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+    <ion-fab-button (click)="scan()" [disabled]="!isSupported">
+      <ion-icon name="scan"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+  <!-- Botón para ir a la página "asistencia" -->
+  <ion-button expand="full" (click)="goToAsistenciaPage()">Escanear QR</ion-button>
+</ion-content>

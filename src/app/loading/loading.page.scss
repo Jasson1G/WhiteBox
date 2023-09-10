@@ -1,0 +1,20 @@
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 150px; /* Ajusta el tamaño de tu logo */
+    height: auto;
+  }
+  
+  .welcome-text {
+    font-size: 24px; /* Ajusta el tamaño del texto de bienvenida */
+    margin-top: 16px; /* Espacio entre el logo y el texto */
+    color: #ff00ff; /* Cambia el color a morado fluorescente */
+  }
+  
